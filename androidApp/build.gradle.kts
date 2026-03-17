@@ -17,6 +17,13 @@ kotlin {
         implementation(projects.composeApp)
         implementation(libs.compose.uiToolingPreview)
         implementation(libs.androidx.activity.compose)
+
+        implementation("com.mapbox.navigationcore:copilot-ndk27:3.20.0-rc.1")
+        implementation("com.mapbox.navigationcore:ui-maps-ndk27:3.20.0-rc.1")
+        implementation("com.mapbox.navigationcore:voice-ndk27:3.20.0-rc.1")
+        implementation("com.mapbox.navigationcore:tripdata-ndk27:3.20.0-rc.1")
+        implementation("com.mapbox.navigationcore:android-ndk27:3.20.0-rc.1")
+        implementation("com.mapbox.navigationcore:ui-components-ndk27:3.20.0-rc.1")
     }
 }
 
